@@ -1,5 +1,3 @@
-import type { Config } from 'jest';
-
 const preset = require('./jest.preset.js');
 module.exports = {
   ...preset,
