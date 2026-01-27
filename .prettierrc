@@ -1,0 +1,28 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": ["*.html", "*.component.html"],
+      "options": {
+        "printWidth": 128,
+        "tabWidth": 2,
+        "jsxBracketSameLine": true,
+        "proseWrap": "always",
+        "htmlWhitespaceSensitivity": "strict",
+        "bracketSameLine": true
+      }
+    },
+    {
+      "files": ["*.scss"],
+      "options": {
+        "printWidth": 128,
+        "tabWidth": 2
+      }
+    }
+  ]
+}
