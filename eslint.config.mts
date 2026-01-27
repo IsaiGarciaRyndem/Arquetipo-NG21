@@ -6,12 +6,6 @@ import unusedImports from 'eslint-plugin-unused-imports';
 
 export default defineConfig([
   {
-    files: ['jest.config.ts'],
-    rules: {
-      '@typescript-eslint/no-require-imports': 'off',
-    }
-  },
-  {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
     extends: [
       eslint.configs.recommended,
