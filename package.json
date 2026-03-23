@@ -72,8 +72,7 @@
     "stylelint-config-standard": "^40.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
     "typescript": "~5.9.2",
-    "typescript-eslint": "^8.53.1",
-    "vitest": "^4.0.8"
+    "typescript-eslint": "^8.53.1"
   },
   "lint-staged": {
     "*.{ts,js,html,json,md,yml,yaml,css,scss}": [

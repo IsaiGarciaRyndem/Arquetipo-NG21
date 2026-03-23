@@ -33,6 +33,5 @@ export function provideAppStore(): EnvironmentProviders {
       },
     }),
     provideRouterStore(),
-    ...devtoolsProviders,
   ]);
 }
